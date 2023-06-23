@@ -259,6 +259,8 @@ Go to the “Settings” tab of your GitHub repository, click on “Secrets” i
 - DOCKERHUB_USERNAME: Your DockerHub username
 - DOCKERHUB_TOKEN: Your DockerHub token or password
 - AWS_PRIVATE_KEY: Your AWS private key (PEM format)
+  
+![image](https://github.com/Aswini-202/project/assets/132454046/dd279ab4-07fc-40c9-bc57-7875b2e11301)
 
 
 To obtain these keys, follow the instructions below:
