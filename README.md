@@ -274,6 +274,8 @@ Once you have these keys, go to the “Settings” tab of your GitHub repository
 
 Step 7: Configure your EC2 instance
 Make sure your EC2 instance has Docker installed and the security group allows inbound traffic on port 80. If you’re using a Windows machine, you may need to run `chmod 400 /path/to/key.pem` to set the correct permissions for your private key.
+![image](https://github.com/Aswini-202/project/assets/132454046/90179d09-00c7-49f2-b30c-07130e973361)
+
 
 
 Pro Tips:
