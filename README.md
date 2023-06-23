@@ -12,6 +12,7 @@ Image: a simple Continuous Deployment Process
 Directory Structure:
 ```
 .
+
 ├── .github
 │ └── workflows
 │ └── ec2deploy.yaml
