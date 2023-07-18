@@ -52,9 +52,9 @@ jobs:
 
     - name: Stop running container
       run: |
-        ssh -o StrictHostKeyChecking=no -i key.pem ubuntu@13.233.166.214 'sudo docker stop github || true'
-        ssh -o StrictHostKeyChecking=no -i key.pem ubuntu@13.233.166.214 'sudo docker rm github || true'
+        ssh -o StrictHostKeyChecking=no -i key.pem ubuntu@13.233.166.214 'sudo docker stop image-git || true'
+        ssh -o StrictHostKeyChecking=no -i key.pem ubuntu@13.233.166.214 'sudo docker rm image-git || true'
 
     - name: Run new container
       run: |
-        ssh -o StrictHostKeyChecking=no -i key.pem ubuntu@13.233.166.214 'sudo docker run -d --name github -p 80:3000 aswini202/image-git:latest'
+        ssh -o StrictHostKeyChecking=no -i key.pem ubuntu@13.233.166.214 'sudo docker run -d --name image-git -p 80:3000 aswini202/image-git:latest'
